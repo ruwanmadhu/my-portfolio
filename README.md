@@ -3,7 +3,7 @@
 This is my personal portfolio website, showcasing my background, skills, and projects as an **ICT Undergraduate & Full-Stack Developer**.  
 It highlights my journey, technical expertise, and selected web projects.  
 
-🔗 **Live Demo:** [RuwanMadhu.me](https://ruwanmadhu.github.io/)
+🔗 **Live Demo:** [RuwanMadhu.me](https://ruwanmadhu.github.io/my-portfolio/)
 
 ---
 
