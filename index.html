@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuwanMadhu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main">
+            <a class="logo" href="#home">RuwanMadhu<span>.me</span></a>
+
+            <button class="nav__toggle" aria-expanded="false" aria-controls="menu" id="menuBtn">
+                ☰ <span class="sr-only">Menu</span>
+            </button>
+
+            <ul id="menu" class="nav__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Person -->
+        <section id="home" class="person container">
+            <div class="person__text">
+                <h1>Hello I'm <span class="accent">Ruwan Madhuwantha</span></h1>
+                <p class="tagline">ICT Undergraduate • Full-Stack Developer</p>
+                <div class="cta">
+                    <div class="cta">
+                        <a class="btn" href="#projects">View Projects</a>
+                        <a class="icon-btn" href="mailto:ruwanmaduwantha777@gmail.com">
+                            <img src="images/email.svg" />
+                        </a>
+                        <a class="icon-btn" href="https://www.linkedin.com/in/ruwanmadhu">
+                            <img src="images/linkedin.svg" />
+                        </a>
+                        <a class="icon-btn" href="https://github.com/ruwanmadhu">
+                            <img src="images/github.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <figure class="person__img">
+                <img src="images/img.jpg">
+                <span class="bubble bubble--one" aria-hidden="true"></span>
+                <span class="bubble bubble--two" aria-hidden="true"></span>
+                <span class="bubble bubble--three" aria-hidden="true"></span>
+            </figure>
+        </section>
+
+        <!-- Wave divider -->
+        <div class="wave" aria-hidden="true">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none" focusable="false" role="img">
+                <path d="M0,64 C240,128 480,0 720,32 C960,64 1200,128 1440,80 L1440,120 L0,120 Z"></path>
+            </svg>
+        </div>
+
+        <!--Abouut Section-->
+        <section id="about" class="section container">
+            <h2>About Me</h2>
+            <p> I’m an enthusiastic full-stack developer passionate about crafting responsive, intuitive, and
+                visually
+                engaging web applications. Combining expertise in both front-end and back-end development with a
+                strong
+                eye for design, I create solutions that are functional, accessible, and user-friendly. My work
+                focuses
+                on blending clean, efficient code with thoughtful design principles to deliver seamless digital
+                experiences that inspire and connect with people.
+            </p>
+            <div class="about__grid">
+                <article class="card">
+                    <h3>Background</h3>
+                    <p>I have a solid academic foundation in Information and Communication Technology, specializing
+                        in
+                        full-stack development with complementary skills in UI/UX design and graphic design. My
+                        studies
+                        and projects have covered both technical and creative aspects—from building responsive web
+                        applications to designing user-focused interfaces and visuals. I’ve gained hands-on
+                        experience
+                        with modern tools, programming languages, and collaborative workflows, preparing me to
+                        deliver
+                        effective, high-quality solutions in the tech industry.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Goals</h3>
+                    <p>My primary goal is to grow as a creative and technically skilled full-stack developer,
+                        delivering
+                        digital experiences that are visually engaging, user-friendly, and accessible. I aim to work
+                        on
+                        innovative projects that challenge my abilities, foster continuous learning, and provide
+                        opportunities to collaborate with diverse, talented teams. In the long term, I aspire to
+                        contribute to impactful products that solve real-world problems, inspire users, and make
+                        technology feel more human.</p>
+                </article>
+            </div>
+        </section>
+
+        <!--Prohjects-->
+        <section id="projects" class="section container">
+            <h2>Web projects</h2>
+            <div class="projects__grid">
+                <article class="project card">
+                    <header>
+                        <h3>RatesPro Currency Converter</h3>
+                        <p class="tectLabel">PHP, HTML, CSS, JavaScript</p>
+                    </header>
+                    <img src="/images/ratespro1.jpg" alt="">
+                    <p class="project__desc">This project is a professional currency conversion web application that
+                        provides real-time exchange rates using the ExchangeRate-API. It features a clean, responsive
+                        interface where users can select currencies, input amounts, and instantly see conversion
+                        results. The application demonstrates secure API key handling through backend PHP logic,
+                        includes comprehensive error handling, and provides additional functionality like currency
+                        swapping and historical rate display, showcasing full-stack development capabilities.</p>
+                    <div class="project__links">
+                        <a href="#" class="btn btn--small" target="_blank" rel="noopener">Live demo</a>
+                        <!--<a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noopener">GitHub</a>-->
+                    </div>
+                </article>
+                <article class="project card">
+                    <header>
+                        <h3>HealthTrack BMI Calculator</h3>
+                        <p class="tectLabel">PHP, HTML, CSS, JavaScript</p>
+                    </header>
+                    <img src="/images/bmitrack1.jpg" alt="">
+                    <p class="project__desc">This project is an interactive Body Mass Index calculator that allows users
+                        to calculate their BMI using both metric and imperial measurement systems. It provides immediate
+                        visual feedback by displaying results on a color-coded health scale and offers personalized
+                        health interpretations. The application features a professional healthcare-themed design,
+                        responsive layout, and client-side form validation, demonstrating strong front-end development
+                        skills while maintaining PHP backend readiness for data processing and storage.</p>
+                    <div class="project__links">
+                        <a href="#" class="btn btn--small" target="_blank" rel="noopener">Live demo</a>
+                        <!--<a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noopener">GitHub</a>-->
+                    </div>
+                </article>
+                <article class="project card">
+                    <header>
+                        <h3>TaskMaster To-Do List</h3>
+                        <p class="tectLabel">HTML, CSS, JavaScript</p>
+                    </header>
+                    <img src="/images/taskmaster.jpg" alt="">
+                    <p class="project__desc">This project is a clean, responsive to-do list application that allows
+                        users to add, edit, delete, and mark tasks as complete. It features filtering options to view
+                        all tasks, active tasks, or completed tasks, along with statistics tracking. The application
+                        demonstrates core JavaScript concepts like DOM manipulation, event handling, and local data
+                        management, making it an excellent learning project for understanding how interactive web
+                        applications work.</p>
+                    <div class="project__links">
+                        <a href="#" class="btn btn--small" target="_blank" rel="noopener">Live demo</a>
+                        <!--<a class="btn btn--small btn--ghost" href="#" target="_blank" rel="noopener">GitHub</a>-->
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="skills" class="section container">
+            <h2>Skills</h2>
+            <div class="skills__grid">
+                <article class="project card">
+                    <!-- Front-End -->
+                    <strong class="accent">✔ Font-End</strong>
+                    <ul class="skills-list">
+                        <li>HTML5 (semantic structure, forms, media)</li>
+                        <li>CSS3 (Flexbox, Grid, responsive design)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js (basics)</li>
+                    </ul>
+                </article>
+                <article class="project card">
+                    <!-- Back-End -->
+                    <strong class="accent">✔ Back-End</strong>
+                    <ul class="skills-list">
+                        <li>Node.js</li>
+                        <li>MongoDB (NoSQL)</li>
+                        <li>MySQL (relational database)</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section id="contact" class="section container">
+            <h2>Contact</h2>
+            <form class="form" action="#" method="get" id="contactForm">
+                <div class="form__row">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required />
+                </div>
+                <div class="form__row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                </div>
+
+                <div class="form__row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+                </div>
+
+                <button class="btn" type="submit">Send Message</button>
+                <p class="form__note">Or reach me via <a href="mailto:ruwanmaduwantha777@gmail.com">Email</a> or <a
+                        href="https://github.com/ruwanmadhu" target="_blank" rel="noopener">GitHub</a>.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer__grid">
+            <p>&copy; <span id="year"></span>Ruwan Madhuwantha</p>
+            <ul class="socials">
+                <a class="icon-btn" href="mailto:ruwanmaduwantha777@gmail.com" aria-label="Email">
+                    <img src="images/email.svg" />
+                </a>
+                <a class="icon-btn" href="https://www.linkedin.com/in/ruwanmadhu" aria-label="Linkedin">
+                    <img src="images/linkedin.svg" />
+                </a>
+                <a class="icon-btn" href="https://github.com/ruwanmadhu" aria-label="github">
+                    <img src="images/github.svg" />
+                </a>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
