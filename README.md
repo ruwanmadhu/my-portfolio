@@ -9,7 +9,6 @@ It highlights my journey, technical expertise, and selected web projects.
 
 ## 📸 Preview
 ![Portfolio Preview](./screenshot.png)  
-*(Add a screenshot of your homepage here for quick preview)*
 
 ---
 
