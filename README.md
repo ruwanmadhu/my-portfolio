@@ -8,7 +8,7 @@ It highlights my journey, technical expertise, and selected web projects.
 ---
 
 ## 📸 Preview
-![Portfolio Preview](./screenshot.png)  
+![Portfolio Preview](./preview.png)  
 
 ---
 
